@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "async": "0.2.9",
+    "bignum": "^0.9.0",
+    "mongoose": "3.8.12",
+    "mongoose-nested": "1.0.0",
+    "mongoose-shortid": "^0.4.2"
+  },
+  "devDependencies": {
+    "async": "0.2.9",
+    "request": "2.29.0",
+    "mocha": "1.20.1",
+    "mocha-multi": "0.4.1-ex",
+    "mocha-text-cov": "0.1.0"
+  },
+  "scripts": {
+    "test": "LOG_LEVEL=warn mocha -R spec"
+  },
+  "version": "1.0.1-SNAPSHOT",
+  "name": "alternative-shortid"
+}
